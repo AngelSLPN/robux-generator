@@ -77,9 +77,21 @@ margin: 0 auto;
 
 }
      @media only screen and (max-width:705px) {
-      .popup .content {
-        width: 100px;
-      }
+     .popup .content {
+  position:absolute;
+  border-radius: 5px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  background:  #fff ;
+  width:700px;
+  height:350px;
+  z-index:2;
+  text-align:center;
+  padding:30px;
+  box-sizing:border-box;
+  font-family:"Open Sans",sans-serif;
+}
  }
     .header_blue {
       background: #1565c0;
